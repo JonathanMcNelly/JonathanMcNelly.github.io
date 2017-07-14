@@ -1,0 +1,262 @@
+
+/*
+
+Colour: Background Dark Blue: #000618
+ mid-tone blue: #2791b4
+
+
+*/
+
+
+@font-face {
+    font-family: Cinzel;
+    src: url("fonts/CinzelDecorative-Regular.ttf");
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url("fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf")
+}
+
+
+
+
+
+
+body {
+ 
+     background-color: #000618;
+   margin: 0;
+    margin-top: 0;
+    
+}
+
+
+
+nav {
+    z-index: 31;
+    position: fixed;
+      align-content: center;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 20px;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,50,0.7));
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #afaa9c;
+  
+    
+    
+}
+a {
+  text-decoration: none;
+    color: #c1b8b0;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    
+}
+
+a:hover {
+    color: gold;
+    
+}
+
+nav.a:active {
+    color: gold;
+    
+}
+nav.a:visited {
+    color: #c1b8b0;
+    
+}
+#currentLink {
+    color: gold;
+    
+}
+//*-------parallax------------- *//
+
+
+.parallax-container {
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  height: 850px;
+}
+
+.parallax-layer {
+  width: 100%;
+  height: 1080px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+
+  .layer-0 {
+    top: 0;
+    z-index: 5;
+    background-image: url(images/parallax2/sky.jpg);
+    
+  }
+
+
+
+  .layer-1 {
+    top: -40px;
+    z-index: 7;
+    background-image: url(images/parallax2/mountains.png);
+  }
+
+
+
+  .layer-2 {
+    top: -50px;
+    z-index: 10;
+    background-image: url(images/parallax2/forest.png);
+  }
+
+
+  .layer-3 {
+    top: -20px;
+    z-index: 15;
+    background-image: url(images/parallax2/trees.png);
+      
+  }
+  .layer-4 {
+    top: -50px;
+    z-index: 20;
+    background-image: url(images/parallax2/grass.png);
+  }
+  .layer-5 {
+    top: 50px;
+    z-index: 25;
+    background-image: url(images/parallax2/nothing.png);
+  }
+  .layer-6 {
+    top: 50px;
+    z-index: 27;
+    background-image: url(images/parallax2/frontgrass.png);
+  }
+
+  
+.content {
+    z-index: 30;
+  position: absolute;
+  top: 1100px;
+  background: #000715;
+  width: 100%;
+  min-height: 1500px;
+}
+
+
+
+#HeadBanner {
+    
+    margin: none;
+    width: 100%;
+    padding-bottom: 100px;
+    
+}
+
+h1 {
+    margin-top: 100px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    font-family: Cinzel;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+#aboutBackground {
+    z-index: 10;
+    position: absolute;
+    left: 5%;;
+    right: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    
+    
+}
+
+#aboutImage {
+    
+    width: 95%;
+    filter: blur(10px) brightness(80%);
+    height: 850px;
+}
+#About {
+    
+    z-index: 20;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2791b4;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+}
+
+#AboutText {
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 30%;
+    line-height: 2;
+    background: rgba(0,0,0, 0.4);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    float: right;
+}
+h3 {
+    
+    float: left;
+    width: 10%;
+    text-align: center;
+   padding: 15px;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    background: #2791b4;
+    
+}
+
+
+footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    text-align: center;
+    
+    
+}

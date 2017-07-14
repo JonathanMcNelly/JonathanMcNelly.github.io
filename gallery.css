@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Cinzel;
+    src: url("fonts/CinzelDecorative-Regular.ttf");
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url("fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf")
+}
+
+
+
+
+
+
+body {
+ 
+     background-image: url(images/backgroundTest.jpg);
+   margin: 0;
+    
+}
+
+#HeadBanner {
+    
+    margin: none;
+    width: 100%;
+   
+    padding-bottom: 100px;
+    
+}
+
+nav {
+    margin-top: 30px;
+      align-content: center;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 20px;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 30px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #afaa9c;
+  
+    
+    
+}
+a {
+    
+  text-decoration: none;
+    color: #c1b8b0;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    
+}
+
+a:hover {
+    color: gold;
+    
+}
+
+nav.a:active {
+    color: gold;
+    
+}
+nav.a:visited {
+    color: #c1b8b0;
+    
+}
+#currentLink {
+    color: gold;
+    
+}
+
+#galleryTop
+{
+    padding-bottom: 60px;
+    border-bottom-style: double;
+    border-bottom-color:antiquewhite;
+    border-width: 1px;
+    
+}
+h1 {
+     color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    font-family: Cinzel;
+    
+}
+
+
+.grid {
+    
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+   
+    
+   
+}
+
+.grid-item img {
+    float: left;
+    width: 317px;
+  
+    
+}
+
+footer {
+    
+    margin-top: 20px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    text-align: center;
+    
+    
+}
