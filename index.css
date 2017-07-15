@@ -203,7 +203,7 @@ h2 {
     
     width: 95%;
     filter: blur(10px) brightness(80%);
-    height: 850px;
+    height: 750px;
 }
 #About {
     
@@ -236,6 +236,14 @@ h2 {
     padding-right: 80px;
     float: right;
 }
+
+#AboutText a {
+    color: #2791b4;
+    font-weight: bolder;
+    margin-left: 0;
+    
+    
+}
 h3 {
     
     float: left;
@@ -249,12 +257,122 @@ h3 {
     background: #2791b4;
     
 }
+#Contact {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, #000618, #132e53);
+    margin-top: 900px;
+    float: left;
+}
+h4 {
+    width: 40%;
+    margin-left: 15%;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    background: #2791b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    
+}
+#contactContent{
+    float: right;
+    width: 30%;
+    
+}
+#contactText {
+    width: 70%;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: white;
+   
+    margin-right: 10%;
+}
 
+#emailAdress {
+    width: 100;
+    margin-right: 11%;
+    font-size: 20px;
+    color: white;
+    font-family: Cinzel;
+    font-weight: bold;
+    letter-spacing: 4px;
+    
+    
+}
+/* contact form _____________________________________________ */
+
+form {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    
+}
+form label {
+    color: #2791b4 ;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+input[type=text], select, textarea {
+   
+    background:  #203e67;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #2791b4; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10px; /* Add a top margin */
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#message {
+    height: 200px;
+    
+}
+
+
+input[type=text]:focus {
+   background: #2791b4;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:  #2791b4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #91e6ff;
+}
+
+/* ______________________________________________ */
 
 footer {
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    position: absolute;
+    margin-bottom: none;
+    bottom: 0;
+    width: 100%; 
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: grey;
     text-align: center;
     
