@@ -63,12 +63,12 @@ a {
 }
 
 a:hover {
-    color: gold;
+    color: #ffbb76;
     
 }
 
 nav.a:active {
-    color: gold;
+    color: #ffbb76;
     
 }
 nav.a:visited {
@@ -76,7 +76,8 @@ nav.a:visited {
     
 }
 #currentLink {
-    color: gold;
+    color: #ffbb76;
+    font-weight: bold;
     
 }
 //*-------parallax------------- *//
