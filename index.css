@@ -8,6 +8,7 @@ Colour: Background Dark Blue: #000618
 */
 
 
+
 @font-face {
     font-family: Cinzel;
     src: url("fonts/CinzelDecorative-Regular.ttf");
@@ -38,20 +39,26 @@ nav {
     position: fixed;
       align-content: center;
     text-align: center;
-    font-family: Cinzel;
+   font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 200;
     width: 100%;
     padding-bottom: 30px;
     padding-top: 30px;
     background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,50,0.7));
-    border-bottom-style: solid;
+   /* border-bottom-style: solid;*/
     border-bottom-width: 0.5px;
-    border-bottom-color: #afaa9c;
+    border-bottom-color: #778ca0;
   
     
     
 }
+
+.navbar-fixed-top.scrolled {
+  background: black !important;
+  transition: background-color 200ms linear;
+}
+
 a {
   text-decoration: none;
     color: #c1b8b0;
@@ -306,9 +313,29 @@ h4 {
     font-family: Cinzel;
     font-weight: bold;
     letter-spacing: 4px;
+}
+
+#socialIcons {
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 13%;
+    margin-top: 50px;
+    
+}
+#socialIcons a {
+    margin: 0;
     
     
 }
+    #socialIcons img{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 50px;
+        filter: invert(100%); 
+    }
+
+
 /* contact form _____________________________________________ */
 
 form {

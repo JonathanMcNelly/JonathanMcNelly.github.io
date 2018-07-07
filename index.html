@@ -5,6 +5,16 @@
        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
   
     
+    
+    <script>
+    var nav = document.getElementsByTagName(nav);
+    $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > 600px;
+  });
+});
+    </script>
    
     
     
@@ -59,22 +69,22 @@
                       
                     
                 
-                   <form action="" method="post">
+                   <form action="input" method="post">
 
-    <label for="fname">First Name</label>
+    <label>First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label>Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
- <label for="E-Mail">E-Mail Adress</label>
+ <label> E-Mail Adress</label>
                        <input type="text" name="e-mail" placeholder="Your e-mail adress...">
 
-    <label for="subject">Subject</label>
+    <label>Subject</label>
                        <input type="text" name="subject" placeholder="type here..">
 
                       
-                       <label for="Message"> Message</label>
-                       <textarea type="text" id="message" name ="message" placeholder ="type here..."> </textarea>
+                       <label> Message</label>
+                       <textarea  id="message" name ="message" placeholder ="type here..."> </textarea>
                       
     <input type="submit" value="Submit">
 
@@ -87,6 +97,15 @@
                       
                       
                       <p id="emailAdress"> Nathalie.Kranich@gmail.com</p>
+                      
+                      </div>
+                      
+                      <div id="socialIcons">
+                          <a href="https://www.facebook.com/McNellyCreations/"><img src="images/icons/if_facebook-logo_1269914.png" alt="facebook"> </a>
+                          <a href="linkedin.com/in/nathalie-kranich"> <img src="images/icons/if_linkedin-logo-1_1269935.png" alt="linkedIn"></a>
+                          <a href="http://the-puppetplayer-of-milmingroy.tumblr.com/"> <img src="images/icons/if_tumblr-letter-logo_1269932.png" alt="tumblr"></a>
+                          <a href="https://www.behance.net/NathalieKranich"><img id="behance" src="images/icons/if_behance-social-media_765241.png" alt="behance"></a>
+                        
                       
                       </div>
                   </div>
